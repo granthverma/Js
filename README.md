@@ -47,6 +47,35 @@ In an event handler, this refers to the element that triggered the event.
 
 ```
 
-10.
+10.What is the purpose of the map() function in JavaScript?
+
+The map() function is used to iterate over an array and transform each element of the array, creating a new array with the results.
+Explain the concept of event delegation in JavaScript.
+
+Event delegation is a technique where a single event listener is attached to a common ancestor rather than attaching multiple event listeners to individual elements. This is particularly useful for handling events on dynamically added elements.
+How does JavaScript handle asynchronous operations, and what are some methods for handling them?
+
+JavaScript uses features like callbacks, Promises, and async/await to handle asynchronous operations. Callbacks were traditionally used, but Promises and async/await provide more readable and manageable code for handling asynchronous tasks.
+What is the purpose of the localStorage and sessionStorage objects in JavaScript?
+
+localStorage and sessionStorage are Web Storage APIs that allow developers to store key-value pairs locally in a user's browser. The main difference is that localStorage persists even when the browser is closed, while sessionStorage is cleared when the session ends.
+How does the JavaScript event loop work, and what is the role of the call stack and callback queue?
+
+The event loop is responsible for executing code, collecting and processing events, and executing queued sub-tasks. The call stack is where synchronous code is executed, and the callback queue is where asynchronous code (such as callbacks from Promises) is queued for execution.
+What is the purpose of the bind() method in JavaScript?
+
+The bind() method is used to create a new function with a specified this value and initial arguments. It is commonly used to set the context for a function, especially in event handling or callback scenarios.
+Explain the same-origin policy in the context of JavaScript and AJAX.
+
+The same-origin policy is a security measure implemented by web browsers that restricts web pages from making requests to a different domain than the one that served the web page. This policy helps prevent malicious attacks such as cross-site request forgery.
+What is the role of the try, catch, and finally blocks in JavaScript error handling?
+
+The try block contains the code that might throw an exception. If an exception occurs, control is passed to the catch block. The finally block, if present, is always executed, regardless of whether an exception was thrown or caught.
+What are the differences between the null and undefined values in JavaScript?
+
+Both null and undefined represent the absence of a value, but they are used in slightly different contexts. null is often explicitly assigned by developers, while undefined is the default value of uninitialized variables or function parameters.
+Explain the concept of callback hell and how it can be mitigated.
+
+Callback hell, also known as the pyramid of doom, occurs when multiple nested callbacks are used, leading to code that is difficult to read and maintain. This can be mitigated by using named functions, Promises, or async/await to flatten the structure and improve readability.
 
 
