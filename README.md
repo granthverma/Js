@@ -55,7 +55,7 @@ Explain the concept of event delegation in JavaScript.
 Event delegation is a technique where a single event listener is attached to a common ancestor rather than attaching multiple event listeners to individual elements. This is particularly useful for handling events on dynamically added elements.
 How does JavaScript handle asynchronous operations, and what are some methods for handling them?
 
-JavaScript uses features like callbacks, Promises, and async/await to handle asynchronous operations. Callbacks were traditionally used, but Promises and async/await provide more readable and manageable code for handling asynchronous tasks.
+11 .JavaScript uses features like callbacks, Promises, and async/await to handle asynchronous operations. Callbacks were traditionally used, but Promises and async/await provide more readable and manageable code for handling asynchronous tasks.
 What is the purpose of the localStorage and sessionStorage objects in JavaScript?
 
 localStorage and sessionStorage are Web Storage APIs that allow developers to store key-value pairs locally in a user's browser. The main difference is that localStorage persists even when the browser is closed, while sessionStorage is cleared when the session ends.
